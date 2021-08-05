@@ -1,0 +1,13 @@
+accelerator:
+  displayName: Tanzu Cloud Native Runtime Hello World
+  description: Sample application deployed to CNR (kNative Serving)
+  iconUrl: https://github.com/tfynes-pivotal/ta-tbs-cnr/blob/main/kn.png?raw=true
+  tags: []
+  options:
+  - name: optionName
+    label: Nice Label
+    display: true
+    defaultValue: ""
+engine:
+  include:
+  - '**'
